@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  :root {
+    --header-bg: #10375c;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+  }
+  
+  .border{
+    border: 1px solid red;
+  }
+  .header{
+    background-color: #272727;
+    height: 180px;
+  }
+  .container{
+    
+    width: 1248px;
+    height:180px;
+    margin: 0 auto;
+  }
+  .brand-home{
+    width: 1248px;
+    height: 148px;
+    margin: 0 auto;
+
+  }
+  .navigation{
+    height: 30px;
+  }
+  .navigation__list{
+    height: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+  }
+  .navigation__list .navigation__item{
+    
+    padding: 0 12px;
+  }
+  .navigation__list .navigation__item a{
+    color: #FFFFFF;
+    padding: 0 12px;
+  }
+
+  .bordercontent{
+    border: 1px solid black;
+  }
+
+  .title_lession{
+    min-width: 100vh;
+    height: 72px;
+    background-color: #f9f9f9;
+    
+  }
+
+  .title_lession .content{
+    width: 1248px;
+    height: 28px;
+    margin: 22px auto;
+    align-items:center;
+
+  }
+  .title_lession .content p{
+    height: 28px;
+    font-size: 20px;
+    align-content: center;
+  }
+  .main_content{
+    width: 980px;
+    height: 1500px;
+    margin: 20px auto  0 auto;
+
+  }
+  .containerBody{
+    height: 275px;
+    background-color: #f9f9f9;
+  }
+  .containerBody .imgLink{
+    width:978px; 
+    height:127;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  .containerBody a{
+    
+    margin: 12px auto;
+  }
+
+  .content_lession p{
+    padding:0 24px;
+    line-height:1.5;
+  }
