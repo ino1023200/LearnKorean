@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    user-select: none;
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: inherit; /* Giữ nguyên màu như trạng thái ban đầu */
+}
+:root {
+    --header-bg: #10375c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+  
+.border{
+    border: 1px solid black;
+}
+
+.header{
+    /* background-color: #10375c; */
+    height: 280px;
+}
+.container{
+    width: 1300px;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+}
+.navigation_list{   
+    /* position: relative; */
+    width: 1300px;
+    height: 50px;
+    gap: 20px;
+    /* position: fixed; */
+    margin: 0 auto;
+    display: flex;
+}
+.navigation_item{
+    position: relative;
+    width: 200px;
+    height: 100%;
+    /* padding-bottom: 10px ; */
+    background-color: rgb(255, 241, 222);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center;    /* Căn giữa dọc */
+    
+}
+/* .navigation_item:hover{
+    background-color: aliceblue;
+    cursor:pointer;
+    background-color: rgb(250, 228, 197);
+
+} */
+  
+.mainbody{
+    width: 1300px;
+    height: 1000px;
+    margin: 50px auto 0px auto;
+}
+.mainbody .hello{
+    background-color: #fceef6;
+    height: 50px;
+    user-select: none;
+}
+.mainbody .hello p{
+    margin-left: 100px;
+    /* text-align: center;  */
+    line-height: 50px;
+}
+.footer{
+    background-color: black;
+    width: 1300px;
+    height: 50px;
+    margin: auto;
+}
+.footer_content{
+    width: 1100px;
+    height: 50px;
+    margin: auto;
+    color: #fceef6;
+    /* border: 1px solid white; */
+}
+.footer_content p{
+    height: 50px;
+    line-height: 50px;
+    user-select: none;
+}
+/* ==================================================== */
+/* Cơ bản cho navigation */
+.submenu{
+    display: none;
+    background-color: rgb(255, 241, 222);
+    width: 200px;
+    top: 45px;
+    position: absolute;
+}
+.submenu > li{
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid red;
+}
+.submenu > li:hover{
+    background-color: aliceblue;
+    cursor:pointer;
+    background-color: rgb(250, 228, 197);
+
+}
+.submenu > li >a{
+    display: inline-block;
+    width: 100%;
+}
+ .navigation_item:hover {
+    /* display: block;  */
+    background-color: aliceblue;
+    cursor:pointer;
+    background-color: rgb(250, 228, 197);
+} 
+
+.navigation_item:hover .submenu{
+    display: block;
+    /* border: 1px solid white; */
+
+}

@@ -1,431 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TT</title>
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./Assets/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./Assets/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./Assets/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./Assets/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./Assets/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./Assets/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./Assets/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./Assets/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./Assets/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./Assets/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./Assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./Assets/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./Assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./Assets/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- Embed font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- reset css -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <!-- !-- reset css --> 
     <link rel="stylesheet" href="./Assets/css/reset.css" />
     <!-- style css  -->
-    <link rel="stylesheet" href="./Assets/css/style.css" />
-  </head>
-  <body>
-    <div class="header-fixed">
-      <div class="container">
-        <div class="header-top">
-          <a href="/">
-            <div class="logo">
-              <span class="logo__circle"></span>
-              <span class="logo__text">
-                <span class="logo__brand">.</span>
-                <span class="logo__brand logo__brand--small">.</span>
-              </span>
+    <link rel="stylesheet" href="./Assets/css/indexstyle.css" />
+</head>
+</head>
+<body>
+    <div class="header">
+        <div class="container border">
+                <img src="/Assets/img/logo.jpg" alt="Company Logo">
+
+          
+            <div class="hero">
+                <!-- phần thiết kế header -->
             </div>
-          </a>
-          <div class="navigation">
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a href="#!" class="navigation__link navigation__link--active">
-                  Home</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a href="#!" class="navigation__link">Lession</a>
-              </li>
-              <li class="navigation__item">
-                <a href="#!" class="navigation__link">safe education</a>
-              </li>
-              <li class="navigation__item">
-                <a href="#!" class="navigation__link">announcement</a>
-              </li>
+        </div>
+        <div class="navigation ">
+            <ul class="navigation_list border">
+                <li class="navigation_item border">
+                    <a href="index.html">Trang chủ</a></li>
+                <li class="navigation_item border">
+                    <a href="#">Học tiếng Hàn</a>
+                    <ul class="submenu border">
+                        <li><a href="/lession1.html">Tiếng Hàn cơ Bản</a></li>
+                        <li><a href="#">Tiếng Hàn Thuyền Viên</a></li>
+                    </ul>
+                </li>
+                    
+                <li class="navigation_item border">
+                    <a href="#">Giáo dục an toàn</a></li>
+                <li class="navigation_item border">
+                    <a href="#">Thông báo</a></li>
+                <li class="navigation_item border">
+                    <a href="#">Đăng nhập</a></li>
+                <li class="navigation_item border">
+                    <a href="#">Khác</a></li>
             </ul>
-          </div>
-          <div class="header-top__btn-login">Log In</div>
-          <div class="header-top__btn-signup"><a href="#!">Sign up </a></div>
         </div>
-      </div>
-    </div>
-    <!-- header -->
-    <header class="header">
-      <div class="container" style="height: 700px">
-        <div class="header-contents">
-          <div class="header-text">
-            <h1 class="header-title">Exceptional Fishing Services for All Seasons.</h1>
-            <p class="header-desc">
-              Your journey to the finest catch begins with our expert team.
-            </p>
-            <div class="header-row">
-              <div class="btn">
-                <a href="#!" class="btn-book">Connect</a>
-              </div>
-              <a href="#!" class="header-phone">or call (123) 456-7890</a>
-            </div>
-          </div>
-          <div class="header-img">
-            <img
-              src="./Assets/img/tau.webp"
-              alt="Rectangle"
-              class="header-img--imgtop"
-            />
-            <img
-              src="./Assets/img/tau1.webp"
-              alt="Rectangle"
-              class="header-img--imgbot"
-            />
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- services -->
-    <div class="services">
-      <div class="container">
-        <!-- title -->
-        <div class="services-title">
-          <h2 class="services-title__title">About us</h2>
-          <p class="services-title__desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam facere optio, sapiente corrupti temporibus!.
-          </p>
-        </div>
-        <section class="services-content">
-          <div class="services-media">
-            <img
-              src="./Assets/img/service.png"
-              alt=""
-              class="services-img"
-            />
-          </div>
-          <!-- services-list -->
-          <div class="services-list">
-            <ul class="services-list__list">
-              <li class="services-list__item">
-                <img
-                  src=""
-                  
-                  class="services-list__item-icon"
-                />
-                <div class="text">
-                  <h3 class="services-list__item__title">Lorem</h3>
-                  <p class="services-list__item__desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aut?.
-                  </p>
-                </div>
-              </li>
-              <li class="services-list__item">
-                <img
-                  src=""
-                  
-                  class="services-list__item-icon"
-                />
-                <div class="text">
-                  <h3 class="services-list__item__title">Lorem</h3>
-                  <p class="services-list__item__desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ut?
-                  </p>
-                </div>
-              </li>
-              <li class="services-list__item">
-                <img
-                  src=""
-                  
-                  class="services-list__item-icon"
-                />
-                <div class="text">
-                  <h3 class="services-list__item__title">Lorem</h3>
-                  <p class="services-list__item__desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ut?
-                  </p>
-                </div>
-              </li>
-            </ul>
-            <a href="#!" class="btn services-btn">More</a>
-          </div>
-        </section>
-      </div>
-    </div>
-    <!-- how-it-works -->
-    <div class="how">
-      <div></div>
-      <div class="container">
-        <div class="how__header">
-          <h3 class="how__header__title">How it works</h3>
-          <p class="how__header__content">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, aspernatur! Quia molestias ut aperiam facere.
-          </p>
-        </div>
-        <!-- list -->
-        <div class="how__list">
-          <ul class="list">
-            <!-- item 1-->
-            <li class="item">
-              <img
-                src="./Assets/img/Orion_search.svg"
-                alt="sreach"
-                class="how__list__ic"
-              />
-              <h3 class="how__list__title">Search</h3>
-              <p class="how__list__desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vitae?
-              </p>
-              <a href="#!" class="how__list__link">Learn More</a>
-            </li>
-            <!-- item 2-->
-            <li class="item">
-              <img
-                src="./Assets/img/Orion_find-user.svg"
-                alt="sreach"
-                class="how__list__ic"
-              />
-              <h3 class="how__list__title">Find best</h3>
-              <p class="how__list__desc">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, vel.
-              </p>
-              <a href="#!" class="how__list__link">Learn More</a>
-            </li>
-            <!-- item 3-->
-            <li class="item">
-              <img
-                src="./Assets/img/Orion_first-aid-kit.svg"
-                alt="sreach"
-                class="how__list__ic"
-              />
-              <h3 class="how__list__title">Get</h3>
-              <p class="how__list__desc">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, ut!
-              </p>
-              <a href="#!" class="how__list__link">Learn More</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- about-us -->
-    <!-- team -->
-    <div class="team ">
-      <div class="container">
-        <div class="team__text">
-          <h3 class="team__title">Our Captain</h3>
-          <a href="#!" class="btn">Meet our Captian</a>
-        </div>
-        <div class="team__group">
-          <ul class="group">
-            <!-- item 1 -->
-            <li class="team__item">
-              <img
-                src="./Assets/img/captian1.png"
-                alt="docter"
-                class="team__item--img"
-              />
-              <h4 class="team__item--name"> Essence Page</h4>
-              <p class="team__item--info"> California - Linda University</p>
-            </li>
-            <!-- item 2 -->
 
-            <li class="team__item">
-              <img
-                src="./Assets/img/captain2.png"
-                alt="docter"
-                class="team__item--img"
-              />
-              <h4 class="team__item--name"> Essence Page</h4>
-              <p class="team__item--info"> California - Linda University</p>
-            </li>
-            <!-- item 3 -->
 
-            <li class="team__item">
-              <img
-                src="./Assets/img/captian3.png"
-                alt="docter"
-                class="team__item--img"
-              />
-              <h4 class="team__item--name"> Essence Page</h4>
-              <p class="team__item--info"> California - Linda University</p>
-            </li>
-            <!-- item 4 -->
+    </div>
 
-            <li class="team__item">
-              <img
-                src="./Assets/img/captian4.png"
-                alt="docter"
-                class="team__item--img"
-              />
-              <h4 class="team__item--name"> Essence Page</h4>
-              <p class="team__item--info"> California - Linda University</p>
-            </li>
-          </ul>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="90"
-            height="36"
-            viewBox="0 0 90 36"
-            fill="none"
-          >
-            <circle cx="72" cy="18" r="18" fill="#2E80CE" />
-            <path
-              d="M69.5 13L74.5 18L69.5 23"
-              stroke="white"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <circle
-              cx="18"
-              cy="18"
-              r="17.5"
-              transform="matrix(-1 0 0 1 36 0)"
-              stroke="#575F66"
-            />
-            <path
-              d="M20.5 13L15.5 18L20.5 23"
-              stroke="#575F66"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+    <div class="mainbody border">
+        <div class="hello border">
+            <p>Chào mừng đến với công ty Hoa Vàng</p>
         </div>
- 
+    </div>
 
-      </div>
-    </div>
-  
-    <!-- CTAb -->
-    <div class="ctab ">
-      <div class="container border">
-        <h3 class="ctab__title">Always welcoming new fishermen</h3>
-        <p class="ctab__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, dolor est distinctio numquam nisi culpa ratione! Quia nobis, illum quo ducimus atque vel iure dignissimos adipisci hic cumque doloremque quidem?</p>
-        <a href="#!" class="btn">Appointment</a>
-      </div>
-    </div>
-    <!-- footer -->
     <div class="footer border">
-      <div class="container ">
-        <div class="footer__logo border">
-          <!-- <img src="./Assets/img/Logo.png" alt="" class="logo"> -->
-          <p class="footer__logo--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi earum itaque delectus velit? Illum?</p>
-        </div>
-        <div class="footer__groupsup border footer__groupsup--suplink1">
-          <ul class="footer__group--link1">
-            <li class="footer__group__link--highlight">Support</li>
-            <li class="footer__group__link">Help center</li>
-            <li class="footer__group__link">Account information</li>
-            <li class="footer__group__link">About</li>
-            <li class="footer__group__link">Contact us</li>
-          </ul>
-          <ul class="footer__group--link2">
-            <li class="footer__group__link--highlight">Support</li>
-            <li class="footer__group__link">Help center</li>
-            <li class="footer__group__link">Account information</li>
-           
-          </ul>
-        </div>
-        <div class="footer__groupsub border footer__groupsup--suplink2">
-            <ul class="footer__group--link1">
-               <li class="footer__group__link--highlight">Support</li>
-                <li class="footer__group__link">Help center</li>
-                <li class="footer__group__link">Account information</li>
-        
-            </ul>
-           <ul class="footer__group--link2">
-           <li class="footer__group__link--highlight">Support</li>
-           <li class="footer__group__link">Help center</li>
-          </ul>
-        </div>
-        <div class="stay">
-          <h4 class="stay__title">Stay In Touch</h4>
-          <div class="stay__groupicon">
-            
+        <div class="footer_content ">
+          <div class="content ">
+            <p>Hoa Vàng @2017 | Giấy phép | Liên hệ</p>
           </div>
-          <h4 class="stay__sub">Subscribe</h4>
-          <p class="stay__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aliquam.</p>
-          <input value="Enter your email..." type="email" name="" id="" class="email">
-          <input type="button" value="Subscribe" class="btn--email">
         </div>
-        
-      </div>
-      <div class="line"></div>
-      <div class="copyright">2021 GDN. Copyright and All rights reserved.</div>
     </div>
-  </body>
+</body>
 </html>

@@ -2,8 +2,17 @@
     box-sizing: border-box;
   }
   a{
+    user-select: none;
     text-decoration: none;
   }
+  a{
+    
+    text-decoration: none;
+    /* color: #fff; */
+}
+a:visited {
+    color: inherit; /* Giữ nguyên màu như trạng thái ban đầu */
+}
   :root {
     --header-bg: #10375c;
   }
@@ -14,12 +23,14 @@
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
   }
-  
+  main{
+    height: 2100px;
+  }
   .border{
     border: 1px solid red;
   }
   .header{
-    background-color: #272727;
+    /* background-color: #272727; */
     height: 180px;
   }
   .container{
@@ -58,9 +69,13 @@
   }
 
   .title_lession{
-    min-width: 100vh;
+
+    width: 1300px;
     height: 72px;
+    margin-top: 50px;
     background-color: #f9f9f9;
+    margin: 50px auto 0 auto;
+    border: 1px solid black;
     
   }
 
@@ -78,9 +93,9 @@
   }
   .main_content{
     width: 980px;
-    height: 1500px;
+    height: 1650px;
     margin: 20px auto  0 auto;
-
+    border: 1px solid black;
   }
   .containerBody{
     height: 275px;
@@ -101,4 +116,13 @@
   .content_lession p{
     padding:0 24px;
     line-height:1.5;
+  }
+
+
+  .navigation__item:hover{
+    background-color: #FFFFFF;
+  }
+  .containerMain{
+    width: 1300px;
+    margin: 0 auto;
   }
