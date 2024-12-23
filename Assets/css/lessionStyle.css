@@ -24,7 +24,7 @@ a:visited {
     font-family: "Sora", sans-serif;
   }
   main{
-    height: 2100px;
+    height: 2700px;
   }
   .border{
     border: 1px solid red;
@@ -93,7 +93,7 @@ a:visited {
   }
   .main_content{
     width: 980px;
-    height: 1650px;
+    height: 2200px;
     margin: 20px auto  0 auto;
     border: 1px solid black;
   }
