@@ -95,22 +95,24 @@
         .main_content {
             width: 90%;
             max-width: 980px;
-            height: 1000px;
+            height: 2000px;
             margin: 0 auto;
         }
         .containerBody {
             display: flex;
-            gap: 20px;
+            flex-direction: column;
+            gap: 10px;
             background-color: #f9f9f9;
             padding: 10px;
+            border: 1px solid black;
             margin-bottom: 20px;
             border-radius: 5px;
         }
         .containerBody .imgLink {
-            flex: 1;
+            flex: none;
         }
         .containerBody .content_lession {
-            flex: 2;
+            flex: none;
         }
 
         /* FOOTER */
@@ -123,7 +125,18 @@
         }
         .menu-close {
             display: none;
-        }      
+        }
+        .containerBody .imgLink {
+        text-align: center; 
+        /* border: 1px solid red; */
+
+        }
+        .containerBody .imgLink .imglession {
+            display: block; 
+            margin:0 auto;
+            max-width: 100%;
+            height: auto; 
+        }
 
 @media screen and (max-width: 768px) {
     .menu-toggle {
@@ -213,8 +226,14 @@
         padding: 10px;
     }
 
+    
+
     .submenu.show {
         display: flex;
+    }
+    .welcomeImg{
+        display: inline;
+        max-height: 20px;
     }
 }
 
@@ -244,49 +263,58 @@
     </header>
 
     <section class="title_lession">
-        <h1>Unit 1: Lessons 1 – 8</h1>
+        <h1>UNIT 1: Basic Korean Grammar</h1>
     </section>
 
     <main class="main_content">
         <div class="containerBody">
-            <div class="imgLink">
-                <img src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/Lesson1pic.png" alt="Lesson 1">
+            <div class="welcomeImg">
+                <!-- <img src="/Assets/img/welcomeImg.png" alt="welcomeImg"> -->
             </div>
             <div class="content_lession">
-                <p>Lesson 1: In this lesson, you will learn the basic structure in Korean sentences...</p>
+                <p><a href="https://www.howtostudykorean.com/wp-content/uploads/2012/04/Teenageralone.png"><img decoding="async" class="alignleft size-full wp-image-259" style="border: 0pt none;" title="Teenageralone" src="https://www.howtostudykorean.com/wp-content/uploads/2012/04/Teenageralone.png" alt="" width="51" height="108" srcset="https://www.howtostudykorean.com/wp-content/uploads/2012/04/Teenageralone.png 51w, https://www.howtostudykorean.com/wp-content/uploads/2012/04/Teenageralone-47x100.png 47w" sizes="(max-width: 51px) 100vw, 51px">
+                </a>
+                     Welcome to Unit 1 of HowtoStudyKorean.com. My little sister told me that she taught you how to read Korean! That’s good, because here in Unit 1 you will start learning basic grammar, words and sentence structures. It is very important when you learn a language to build up your vocabulary to be able to speak in every day conversations. But, because your are just starting out, the first few lessons in this Unit will have a smaller amount of new words than usual. As you progress, lessons will include more and more words to add to your vocabulary!
+                </p>
             </div>
 
         </div>
         <div class="containerBody">
             <div class="imgLink">
-                <img src="/Assets/img/Lessons-1-8-picture.png" alt="Lesson 1">
+                <img src="/Assets/img/Lessons-1-8-picture.png" class="imglession" alt="Lesson 1">
             </div>
             <div class="content_lession">
-                <p>Lesson 1: In this lesson, you will learn the basic structure in Korean sentences...</p>
+                <p>Lessons 1 – 8: Start learning actual grammar, phrases and words that you can apply to daily conversation! We will start by introducing you to basic Korean sentence structure, which will lead into you making your own sentences using proper conjugation techniques. You will also learn about all the irregulars in Korean grammar, and how to use them in sentences. These first 8 lessons are hard, but they will be a strong foundation for your future studies</p>
             </div>
             
-        </div><div class="containerBody">
+        </div>
+        <div class="containerBody">
             <div class="imgLink">
                 <img src="/Assets/img/Lesson-9-16-pic.png" alt="Lesson 1">
             </div>
             <div class="content_lession">
-                <p>Lesson 1: In this lesson, you will learn the basic structure in Korean sentences...</p>
+                <p>Lesson 2: In this lesson, you will learn two more particles (이/가) to use in Korean sentences. In addition to those, you will learn how to use the word 있다 to make sentences like “I am at school” and “I have a pen.”</p>
+               
             </div>
             
-        </div><div class="containerBody">
+        </div>
+        <div class="containerBody">
             <div class="imgLink">
                 <img src="/Assets/img/1725picture.png" alt="Lesson 1">
             </div>
             <div class="content_lession">
-                <p>Lesson 1: In this lesson, you will learn the basic structure in Korean sentences...</p>
+                <p>
+                    Lesson 3: In this lesson, you will learn how to make sentences using adjectives and verbs! We will start off with very simple sentences in this lesson, but later you will be making sentences complex enough to make your head explode. In addition to that, you will learn how to say “my” thing, or “his” thing by using the possessive particle, 의. Finally, we will take an initial look at the differences between 좋다 (to be good) and 좋아하다 (to like).
+                </p>
             </div>
             
-        </div><div class="containerBody">
+        </div>
+        <div class="containerBody">
             <div class="imgLink">
                 <img src="/Assets/img/Unit1testpicture.png" alt="Lesson 1">
             </div>
             <div class="content_lession">
-                <p>Lesson 1: In this lesson, you will learn the basic structure in Korean sentences...</p>
+                <p>Lesson 4: In this lesson, you will learn how to change adjectives from their dictionary form to be able to modify nouns. Using this, you will be able to create more complex sentences! In addition to this, you will learn the meaning of the Korean particle ‘도’ and when to use it. Also, I included some common greeting words, even though I feel you should put off learning them for just a few more lessons!</p>
             </div>
             
         </div>
@@ -295,7 +323,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2024 Basic Korean Lessons</p>
+        <p>Hoa Vàng @2017 | Giấy phép | Liên hệ</p>
     </footer>
 
     <script>document.addEventListener('DOMContentLoaded', function () {
